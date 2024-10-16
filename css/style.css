@@ -73,3 +73,15 @@ h1, h2 {
     display: grid;
     grid-template-rows: repeat(6, 300px);
 }
+
+/******************************** 4.- Span ************************************************/
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.grid-4 .box:nth-child(2) {
+    background-color: yellowgreen;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+}
