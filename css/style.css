@@ -108,3 +108,13 @@ h1, h2 {
     gap: 1rem;
     grid-template-columns: 2fr repeat(2,1fr);
 }
+
+/*********************************** 8.- Grid Gap ************************************/
+.grid-8 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.grid-8 .box {
+    margin: 0;
+}
