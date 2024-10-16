@@ -65,5 +65,11 @@ h1, h2 {
 /********************************** 2.- Grid Template Columns *************************/
 .grid-2 {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/******************************* 3.- Grid Template Rows **********************************/
+.grid-3 {
+    display: grid;
+    grid-template-rows: repeat(6, 300px);
 }
